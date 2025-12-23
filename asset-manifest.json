@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Ma_Ni_portfolio/static/css/main.72365cda.css",
+    "main.js": "/Ma_Ni_portfolio/static/js/main.1fb811c0.js",
+    "static/js/453.ace21015.chunk.js": "/Ma_Ni_portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/home-main.svg": "/Ma_Ni_portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Ma_Ni_portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Manikanta_Swamy_Pamarthi_Resume.pdf": "/Ma_Ni_portfolio/static/media/Manikanta_Swamy_Pamarthi_Resume.c56eb79a9442d9829601.pdf",
+    "static/media/avatar.svg": "/Ma_Ni_portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/SQL.svg": "/Ma_Ni_portfolio/static/media/SQL.7fd9bdcee9744b3b731709f2753c68af.svg",
+    "static/media/AWS.svg": "/Ma_Ni_portfolio/static/media/AWS.4029b6fea7c8192805f6a1bc1491257b.svg",
+    "static/media/Python.svg": "/Ma_Ni_portfolio/static/media/Python.9daed22c470296a63e19d0d509a1828b.svg",
+    "static/media/pre.svg": "/Ma_Ni_portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/Java.svg": "/Ma_Ni_portfolio/static/media/Java.980d8e77e92511acfefbf2dfdf4336e1.svg",
+    "index.html": "/Ma_Ni_portfolio/index.html",
+    "static/media/Javascript.svg": "/Ma_Ni_portfolio/static/media/Javascript.dcff0bf09e6c5ffc3eaea9cc7ec4c8f5.svg",
+    "static/media/Git.svg": "/Ma_Ni_portfolio/static/media/Git.9fbdd94cab5e68fd45b434fd29b1bb5e.svg",
+    "main.72365cda.css.map": "/Ma_Ni_portfolio/static/css/main.72365cda.css.map",
+    "main.1fb811c0.js.map": "/Ma_Ni_portfolio/static/js/main.1fb811c0.js.map",
+    "453.ace21015.chunk.js.map": "/Ma_Ni_portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72365cda.css",
+    "static/js/main.1fb811c0.js"
+  ]
+}
