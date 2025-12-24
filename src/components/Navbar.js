@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -18,11 +18,13 @@ function NavBar() {
   const [expand, setExpand] = useState(false);
   const [navColour, setNavColour] = useState(false);
 
-  const scrollHandler = () => {
-    setNavColour(window.scrollY >= 20);
-  };
-
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    const scrollHandler = () => {
+      setNavColour(window.scrollY >= 20);
+    };
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <Navbar
@@ -32,7 +34,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* LOGO TEXT */}
+        {/* LOGO */}
         <Navbar.Brand as={Link} to="/" onClick={() => setExpand(false)}>
           <h3 className="logo-text">MaNi</h3>
         </Navbar.Brand>
@@ -43,7 +45,7 @@ function NavBar() {
         />
 
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto align-items-center">
 
             <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
               <AiOutlineHome /> Home
@@ -65,14 +67,14 @@ function NavBar() {
               <MdEmail /> Contact
             </Nav.Link>
 
-            {/* LEETCODE BUTTON */}
-            <Nav.Item className="ms-3">
+            {/* LEETCODE – FIXED ALIGNMENT */}
+            <Nav.Item className="leetcode-wrapper">
               <Button
                 href="https://leetcode.com/u/Ma_Ni/"
                 target="_blank"
-                className="fork-btn-inner"
+                className="leetcode-btn"
               >
-                <SiLeetcode /> LeetCode
+                <SiLeetcode className="me-1" /> LeetCode
               </Button>
             </Nav.Item>
 
